@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+       <loading :active.sync="isLoading"></loading>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/products">產品列表</router-link> |
