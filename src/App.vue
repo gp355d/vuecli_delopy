@@ -31,6 +31,9 @@ export default {
         this.isLoading = false
         console.log(response)
       })
+      .catch((response) =>{
+        this.isLoading = false
+      })
   }
 }
 </script>
