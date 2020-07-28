@@ -23,6 +23,9 @@ export default {
         console.log(response)
         this.product = response.data.data;
       })
+        .catch((error) => {
+          this.isLoading = false
+      })
         console.log(this.$route.params.id);
     }
 }

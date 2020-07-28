@@ -31,7 +31,7 @@ export default {
         this.isLoading = false
         console.log(response)
       })
-      .catch((response) =>{
+      .catch((error) =>{
         this.isLoading = false
       })
   }

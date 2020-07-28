@@ -32,7 +32,7 @@ export default {
         console.log(response)
         this.products = response.data.data;
       })
-      .catch((response) => {
+      .catch((error) => {
           this.isLoading = false
       })
     }
